@@ -7,13 +7,13 @@ const About = () => {
       <div>
         <img
           className="rounded-sm"
-          width={500}
-          height={500}
+          width={100}
+          height={100}
           src={profile}
           alt="Logo"
         />
       </div>
-      <div>
+      <div className="w-[400px]">
         <p>Hello! I'm Tamilvanan</p>
         <p>
           I work as a Software Engineer at{" "}
