@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   optimizeDeps: {
-    include: ['@cyntler/react-doc-viewer']
-  }
+    include: ["@cyntler/react-doc-viewer"],
+  },
+  base: "my-app",
 });
