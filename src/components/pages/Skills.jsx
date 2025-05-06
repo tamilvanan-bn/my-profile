@@ -9,10 +9,8 @@ const Skills = () => {
   };
 
   return (
-    <div className="mx-5 my-5 max-w-4xl mx-auto">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4 text-center">
-        Technical Skills
-      </h2>
+    <div className="mx-5 my-5 max-w-4xl mx-auto text-white">
+      <h2 className="text-2xl font-bold mb-4 text-center">Technical Skills</h2>
       <div className="overflow-hidden rounded-lg shadow-md">
         <table className="min-w-full divide-y divide-gray-200">
           <tbody className="bg-white divide-y divide-gray-200">

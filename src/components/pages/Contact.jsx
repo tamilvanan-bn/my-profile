@@ -32,22 +32,20 @@ const Contact = () => {
   ];
 
   return (
-    <div className="m-8 flex justify-center">
+    <div className="m-8 flex justify-center text-white">
       <table className="w-auto">
         <tbody>
           {contacts.map((contact) => (
-            <tr
-              key={contact.name}
-              className="hover:bg-gray-50 transition-colors"
-            >
-              <td className="py-2 pr-4">
+            <tr key={contact.name} className="group">
+              <td className="py-2 pr-4 text-white">
                 <a
                   href={contact.url}
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`${contact.name} profile`}
                   title={contact.name}
-                  className="flex items-center gap-2 text-gray-700 hover:text-blue-600 transition-colors"
+                  className="flex items-center gap-2 hover:text-blue-600 transition-colors
+                    px-4 py-2 rounded-full group-hover:bg-gray-50"
                 >
                   <span className="text-lg">{contact.icon}</span>
                   <span className="text-base">{contact.name}</span>
