@@ -18,7 +18,7 @@ const Resume = () => (
         pdfVerticalScrollByDefault: true,
       }}
       style={{
-        height: "80vh",
+        height: "79vh",
         width: "100%",
       }}
     />
