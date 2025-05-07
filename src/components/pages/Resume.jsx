@@ -2,7 +2,7 @@ import DocViewer from "@cyntler/react-doc-viewer";
 import { PDFRenderer } from "@cyntler/react-doc-viewer";
 
 const Resume = () => (
-  <div className="pdf-container">
+  <div className="pdf-container p-8">
     <DocViewer
       documents={[
         {

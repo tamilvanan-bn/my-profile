@@ -40,7 +40,7 @@ const About = () => {
           I'm a web developer with a growing interest in C++ and systems
           programming. While I specialize in building dynamic web applications,
           I'm currently expanding my skills by diving into C++ and learning
-          about the fundamentals of compilers and low-level system design.
+          about the fundamentals of systems programming.
         </p>
       </div>
     </div>

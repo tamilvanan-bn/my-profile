@@ -5,6 +5,7 @@
 }
 
 body {
+  font-family: "Inter var", sans-serif;
   background-color: black;
   color: whitesmoke;
 }
@@ -13,4 +14,8 @@ body {
 .textLayer,
 .annotationLayer {
   display: none;
+}
+
+#react-doc-viewer {
+  background-color: black;
 }

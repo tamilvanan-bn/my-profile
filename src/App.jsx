@@ -1,5 +1,3 @@
-import "./App.css";
-
 import About from "./components/pages/About";
 import Skills from "./components/pages/Skills";
 import Resume from "./components/pages/Resume";
