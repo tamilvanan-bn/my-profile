@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="flex-1 w-150">
           <Routes>
-            <Route path="/my-app" element={<About />} />
+            <Route path="/my-profile" element={<About />} />
             <Route path="/" element={<About />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/resume" element={<Resume />} />
