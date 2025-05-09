@@ -8,5 +8,5 @@ export default defineConfig({
   optimizeDeps: {
     include: ["@cyntler/react-doc-viewer"],
   },
-  base: "my-app",
+  base: "my-profile",
 });
