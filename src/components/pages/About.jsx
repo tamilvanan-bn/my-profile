@@ -37,10 +37,9 @@ const About = () => {
           .
         </p>
         <p className="mt-15">
-          I'm a web developer with a growing interest in C++ and systems
-          programming. While I specialize in building dynamic web applications,
-          I'm currently expanding my skills by diving into C++ and learning
-          about the fundamentals of systems programming.
+          As a Frontend Developer, I specialize in building engaging, user-centric web interfaces using modern technologies such as HTML, CSS, JavaScript, and frameworks like React, and Angular. 
+          My focus is on creating responsive, accessible, and performant applications that enhance user experience. 
+          I collaborate closely with designers and backend developers to bring visual concepts to life while ensuring code quality, scalability, and alignment with best practices.
         </p>
       </div>
     </div>
