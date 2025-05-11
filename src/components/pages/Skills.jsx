@@ -2,10 +2,10 @@ import React from "react";
 
 const Skills = () => {
   const skillsData = {
-    Languages: ["C++", "Python", "Java", "JavaScript", "TypeScript", "SQL"],
+    "Languages": ["C++", "Python", "Java", "JavaScript", "TypeScript", "SQL"],
     "Back-end": ["Node.js", "Spring Boot", "Spring Data JPA"],
     "Front-end": ["Angular", "React", "HTML", "CSS"],
-    "Tools/Development": ["Git", "GitHub Actions", "Apache Maven", "Datadog"],
+    "Tools/Development": ["Git", "GitHub Actions", "Apache Maven", "Datadog", "Mongodb", "PostgreSQL"],
   };
 
   return (
